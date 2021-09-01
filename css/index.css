@@ -1,0 +1,42 @@
+/* Import Externos */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+/* Import Internos */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-family: "Dancing Script", sans-serif;
+  font-size: 62,5%; }
+
+h2 {
+  font-size: 4em;
+  color: crimson;
+  text-transform: uppercase; }
+
+header {
+  width: 100%;
+  padding: 4rem 0;
+  background-color: grey; }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    header nav h1 {
+      font-size: 3em;
+      color: #2b2b2b; }
+    header nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      list-style: none;
+      gap: 3em; }
+      header nav ul li a {
+        font-size: 2m;
+        color: #2b2b2b;
+        text-decoration: none; }

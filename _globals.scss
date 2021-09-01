@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Dancing Script", sans-serif;
+    font-size: 62,5%;
+}
+
+h2 {
+    font-size: 4em;
+    color: crimson;
+    text-transform: uppercase;
+}
+
+@mixin flex($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content:$justify;
+    align-items: $align;
+}
