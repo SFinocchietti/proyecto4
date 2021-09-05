@@ -5,7 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Emprendimiento de cerveza artesanal con productos consechados por sus propios dueños.">
+  <meta name="keywords" content="CERVEZA ARTESANAL, IPA, KOLSCH">
+  <meta name="robots" content="index"/>
+  <meta name="Sebastian Finocchietti" content="Otwel"/>
+  <meta http-equiv="cache-control" content="no-cache"/>
   <title>Principal</title>
+  <script src="https://kit.fontawesome.com/3cdda6d263.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="css/index.css">
@@ -18,13 +24,13 @@
     rel="stylesheet">
 </head>
 
-<body class="uno">
-  <header>
+<body>
+  <header class="cabeza">
     <h1>
       Tu cerveceria a un click
     </h1>
   </header>
-  <main>
+  <main class="cuerpo">
     <nav class="nav">
         <ul class="nav-menu nav-menu_visible">
             <li class="nav-menu-item"><a href="./pages/quines.html" class="nav-menu-link nav-link">Quienes</a></li>
@@ -33,7 +39,7 @@
             <li class="nav-menu-item"><a href="./pages/cv.html" class="nav-menu-link nav-link">Contacto</a></li>
         </ul>
     <h2 class="menudos">Un motivo para compartir momentos</h2>
-    <div id="carouselExampleControls" class="carousel slide tamaño" data-bs-ride="carousel">
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="imagenes/vasos.jpg" class="d-block w-100" alt="...">
@@ -45,13 +51,11 @@
           <img src="imagenes/vaso10.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -89,3 +93,4 @@
 </body>
 
 </html>
+
