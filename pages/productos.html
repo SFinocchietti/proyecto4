@@ -14,62 +14,76 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Style+Script&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <header class="cabeza">
-        <h1>
-            Tu cervezaria a un click
-        </h1>
-    </header>
-    <main class="cuerpo">
-        <nav class="nav">
-            <ul class="nav-menu nav-menu_visible">
-                <li class="nav-menu-item"><a href="./../index.html" class="nav-menu-link nav-link">Inico</a></li>
-                <li class="nav-menu-item"><a href="quines.html" class="nav-menu-link nav-link">Quienes</a></li>
-                <li class="nav-menu-item"><a href="pagina3.html" class="nav-menu-link nav-link">Comentarios</a></li>
-                <li class="nav-menu-item"><a href="cv.html" class="nav-menu-link nav-link">Contacto</a></li>
-        </ul>
-        </nav>
-    <h2 class="menudos">Cerveza IPA</h2>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand">Tu Cerveceria</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="quines.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cv.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <main class="fondo">
+    <h1 class="menudos">IPA</h1>
     <section class="cervezas">
         <p>De Inglaterra a India hay un largo recorrido. En 1780, Mr. Hodgson descubrió que elevando el lúpulo y la
             graduación alcohólica, la cerveza llegaba a destino intacta. Bautizó a su fórmula India Pale Ale. En
             Antares, le sumamos lúpulos americanos con presencia de flores y cítricos. Nuestra cerveza viajera.</p>
     </section>
-    <h2 class="menudos">Cerveza Honey</h2>
+    <h1 class="menudos">Honey</h1>
     <section class="cervezas">
         <p>Babilonia antigua. Tras la boda, el padre de la novia convida al futuro yerno con cerveza de miel a lo largo
             de un mes. Así lo dicta la tradición. Nuestra Honey Beer recoge la historia que dio origen a “la luna de
             miel” y lo celebra con notas mento-ladas y frutales. Y, por supuesto, una inmersión de miel pura para abrir
             los corazones.</p>
     </section>
-    <h2 class="menudos">Cerveza Kolsch</h2>
+    <h1 class="menudos">Kolsch</h1>
     <section class="cervezas">
         <p>Existen muchas cervezas doradas y refrescantes. Pero frutadas y con destellos finales de lúpulo, sólo hay un
             estilo: la Kölsch. En Antares rescatamos la antigua receta de la cerveza favorita de los bebedores en
             colonia, Alemania, y la honramos desde 1998. En nuestra cocina, su legado sigue intacto.</p>
     </section>
-    <h2 class="menudos">Cerveza Red Ale</h2>
+    <h1 class="menudos">Red Ale</h1>
     <section class="cervezas">
         <p>Conocida también como Irish red ale, es un tipo de cerveza ale original de Irlanda. Su ligero color rojo es
             debido al tostado de la cebada además de la malta. Las cervezas normalmente son bajas en alcohol (3,5 % es
             lo típico), aunque se elaboran versiones más potentes para su exportación.</p>
     </section>
-</main>
-    <footer>
-        <div class="footer">
-            <strong>
-                <p>Todos los derechos reservados&copy; | Otwel</p>
-            </strong>
+    <h2>Te llevamos la barra para tu fiesta!</h2>
+    <video controls height="40%", width="40%"> <source src="../imagenes/video1.mp4" type="video/mp4"> </video> 
+    <footer style="background-image: url(../imagenes/fondo10.png);">
+        <div class="contenedor">
+            <p>Seguinos y comenta en nuestras redes</p>
+        </div>
+        <div class="redes-sociales">
+        <button class="icono"><i class="fab fa-twitter"></i></button>
+        <button class="icono"><i class="fab fa-facebook-f"></i></button>
+        <button class="icono"><i class="fab fa-youtube"></i></button>
+        <button class="icono"><i class="fab fa-instagram-square"></i></button>
+        </div>
+        <div class="contenedor">
+          <p class="copy">2021 Sebastian Finocchietti <br> Todos los derechos reservados</p>
         </div>
     </footer>
-    </section>
+    </main>
+    <script src="https://kit.fontawesome.com/3cdda6d263.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
