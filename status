@@ -1,0 +1,29 @@
+[33mcommit a54ce3a4c1139d116100905c07328883f7893145[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Sebastian Finocchietti <sebastianfino@gmail.com>
+Date:   Wed Sep 22 20:27:17 2021 -0300
+
+    [ADD] Se agrego inicio.HTML como caratula de la pagina
+
+[33mcommit ba9832f1579074309b6e9a906cefcfb0073ac208[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Sebastian Finocchietti <sebastianfino@gmail.com>
+Date:   Sun Sep 5 18:44:56 2021 -0300
+
+    [ADD] Se crearon nuevas secciones a la pagina
+
+[33mcommit 9368998ecd78bfdbfc133548bf828a4f3c49b10d[m
+Author: Sebastian Finocchietti <sebastianfino@gmail.com>
+Date:   Wed Sep 1 18:43:25 2021 -0300
+
+    [UPDATE] Se modificaron varias paginas.
+
+[33mcommit 8fbbe3909dca88edc553b2b81f8f09fb4bdd9274[m
+Author: Sebastian Finocchietti <sebastianfino@gmail.com>
+Date:   Wed Sep 1 15:41:18 2021 -0300
+
+    [ADD] Se agrego estilos al header
+
+[33mcommit 48222c65a3659f6e53af627a2de84d820409d39a[m
+Author: Sebastian Finocchietti <sebastianfino@gmail.com>
+Date:   Wed Sep 1 11:18:49 2021 -0300
+
+    [ADD] se creo el scaffoldilng inicial del proyecto
