@@ -91,10 +91,12 @@
 
 /*Pagina Productos*/
 .cervezas1 {
+  display: flex;
   width: 100%;
   max-width: 1000px;
   margin: auto;
-  padding: 60px; }
+  padding: 60px;
+  flex-direction: row; }
 
 .cervezas1 img {
   width: 90px;
